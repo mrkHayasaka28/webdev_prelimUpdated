@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Send Donations</title>
+	<link rel="stylesheet" type="text/css" href="donations.css">
+</head>
+<body>
+    <header>
+        <div class="app-bar">
+          <h1>Logo</h1>
+          <nav>
+            <button class="nav-btn emergency-planning">Emergency Planning</button>
+            <button class="nav-btn disaster-management">Disaster Management</button>
+            <button class="nav-btn resources" onclick="window.location.href='resources.html';">Resources</button>
+            <button class="nav-btn charity-programs" onclick="window.location.href='charity.html';">Charity Programs</button>
+            <button class="nav-btnn new-button"onclick="window.location.href='donations.html';" >Send Donations</button>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <div class="container">
+        <h2>Your donation can make an impact!</h2>
+        <p>Your support has the power to transform lives and bring hope to those in need. Every contribution, whether large or small, plays a crucial role in our mission. By donating today, you’re not just giving money; you’re investing in a brighter future for individuals and communities. Together, we can create lasting change and uplift those who need it most. Your generosity truly makes a difference!</p>
+      
+          <div class="form-image-wrapper">
+            <form>
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name"><br><br>
+              <label for="bankacc">Bank Account Number:</label>
+              <input type="text" id="bankacc" name="bankacc"><br><br>
+              <label for="amount">Amount:</label>
+              <input type="number" id="amount" name="amount"><br><br>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email"><br><br>
+              <input type="submit" value="Donate Now">
+            </form>
+            <div class="image-and-icons-container">
+                <div class="image-container">
+                  <img src="assets/hungry-children.jpg" alt="Donation Image">
+                </div>
+                <div class="icon-row">
+                  <img src="assets/mastercard.png" alt="Icon 1" class="icon">
+                  <img src="assets/paypal.png" alt="Icon 2" class="icon">
+                  <img src="assets/apple-pay.png" alt="Icon 3" class="icon">
+                </div>
+              </div>
+      </div>
+</body>
+</html>
